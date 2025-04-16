@@ -1,0 +1,42 @@
+﻿  KompG.cpp
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(53,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(54,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(58,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(59,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(61,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(62,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\KompG\KompG.cpp(161,25): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     Создается библиотека C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\x64\Debug\KompG.lib и объект C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\x64\Debug\KompG.exp
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+LINK : warning LNK4217: Символ "glewInit", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewBindBuffer", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewBufferData", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewDeleteBuffers", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewGenBuffers", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewEnableVertexAttribArray", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewGetUniformLocation", определенный в "glew.obj", импортирован "KompG.obj" в функции ""void __cdecl settingMat4(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::mat<4,4,float,0> const &)" (?settingMat4@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBU?$mat@$03$03M$0A@@glm@@@Z)".
+LINK : warning LNK4286: Символ "__glewGetUniformLocation", определенный в "glew.obj", импортирован "shader_loader.obj".
+LINK : warning LNK4217: Символ "__glewUniform1f", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4286: Символ "__glewUniform1f", определенный в "glew.obj", импортирован "shader_loader.obj".
+LINK : warning LNK4217: Символ "__glewUniformMatrix4fv", определенный в "glew.obj", импортирован "KompG.obj" в функции ""void __cdecl settingMat4(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::mat<4,4,float,0> const &)" (?settingMat4@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBU?$mat@$03$03M$0A@@glm@@@Z)".
+LINK : warning LNK4217: Символ "__glewUseProgram", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewVertexAttribPointer", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewBindVertexArray", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewDeleteVertexArrays", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewGenVertexArrays", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "glewExperimental", определенный в "glew.obj", импортирован "KompG.obj" в функции "main".
+LINK : warning LNK4217: Символ "__glewAttachShader", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewCompileShader", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewCreateProgram", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewCreateShader", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewDeleteShader", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewGetProgramInfoLog", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewGetProgramiv", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewGetShaderInfoLog", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewGetShaderiv", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewLinkProgram", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewShaderSource", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""unsigned int __cdecl createShader(char const *,char const *)" (?createShader@@YAIPEBD0@Z)".
+LINK : warning LNK4217: Символ "__glewUniform1i", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""void __cdecl setUniformInt(unsigned int,char const *,int)" (?setUniformInt@@YAXIPEBDH@Z)".
+LINK : warning LNK4217: Символ "__glewUniform3f", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""void __cdecl setUniformVec3(unsigned int,char const *,float,float,float)" (?setUniformVec3@@YAXIPEBDMMM@Z)".
+LINK : warning LNK4217: Символ "__glewUniform4f", определенный в "glew.obj", импортирован "shader_loader.obj" в функции ""void __cdecl setUniformVec4(unsigned int,char const *,float,float,float,float)" (?setUniformVec4@@YAXIPEBDMMMM@Z)".
+  KompG.vcxproj -> C:\Users\derun\source\repos\KompGo\DERUNOV_V.V\x64\Debug\KompG.exe
